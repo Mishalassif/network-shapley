@@ -1,6 +1,9 @@
 # network-shapley
 
-Code for computing the Metcalfe-Shapley value of a graph. 
-Currently supports only trees
+*Efficient polynomial time algorithms for computing the Metcalfe-Shapley value of a graph.*
 
-metcalfe_shapley_tree: Computes the Metcalfe-Shapley of any node in a tree in $O(|V|^3)$ time.
+## Files
+
+metcalfe_shapley_tree.py: Core functions that computes the Metcalfe-Shapley of any node in a tree in $O(|V|^3)$ time.
+
+examples.ipynb: Notebook with example applications.
